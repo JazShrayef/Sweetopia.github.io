@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.glass{
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin: 0px;
+    
+  
+}
+header{
+    height: 250px ;
+    width: 100% ;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: monospace;
+    text-align: center;
+  background-image: url(ChristmasCover.jpg);
+  background-size: cover;
+ 
+}
+
+body{
+    background-color: ivory;
+}
+.navi {
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.welcome {
+color: black;
+font-size: 50;
+}
+.stars{
+    margin-bottom: 18px;
+    font-size: xx-large;
+    color:black ;
+}
+.button{
+   font-weight: bolder;
+    padding: 10px;
+    border: 1px solid salmon;
+    color: black;
+    text-decoration: none;
+    font: monospace ;
+    text-transform: uppercase;
+    transition: ease-in-out 250ms;
+}
+
+
+ul{
+    padding-right: 20px;
+    margin: 10px ;
+    display: flex;
+    list-style: none;
+    
+}
+li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a {
+font-size: 15;
+font-family: "poppins",sans-serif;
+text-decoration: none;
+color: white;
+transition: ease-in-out 250ms;
+}
+
+
+.logo img{
+   /* box-shadow:  0px 0px 10px rgba(45,46,41,0.64);*/
+    width: 120;
+    padding-top: 10px;
+}
+
+.icecream{
+    height: 270px;
+    width: 400px;
+    position: relative;
+    margin: 50px;
+    box-shadow:10px 15px 30px;
+    border: 2px solid black;;
+}
+nav ul> li> a:hover {
+
+color: salmon ;
+}
+.button:hover {
+    background-color: salmon;
+    color:white;}
+    .sec{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+.foodItems{
+    padding: 10px;
+    margin: 35px;
+    height: 400px ;
+    width: 200px;
+
+} 
+.foodBorder{
+    position: relative;
+    border: 2px solid goldenrod;
+    background-color: bCrêpe;
+    
+}
+.foodOverlay{
+    margin: 10px;
+    position: absolute;
+    text-align: center;
+    right: 1px;
+    top: 1px;
+    height: 100% ;
+    width: 100%;
+    background-color: rgb(252, 240, 189);
+    box-shadow:  -1px -2px 7px rgba(45,46,41,0.59);
+}
+.discover{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    font-size: 27px;
+}
+.story{
+    text-shadow: 1px 1px 1px #000;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.paragraph{
+    padding: 20px;
+    font-size: 18;
+}
+.about{
+    padding: 20px;
+    font-size: 15;
+    text-decoration: none;
+    color: goldenrod;
+    font-family: 'Zilla Slab', serif;
+}
+.food1{
+  
+    margin: 5px;
+    background-image: url("BANCAKE.jpg");
+    background-size: cover;
+    box-shadow:  0px 0px 10px rgba(45,46,41,0.64);
+}
+.food2{
+    
+    background-image: url("CUPCAKE.webp");
+    background-size: auto;
+    box-shadow:  0px 0px 10px rgba(45,46,41,0.64);
+    
+}
+.thirdsec{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    
+    text-align: center;
+    justify-content: center;
+    background-image: url("sec3.jpg");
+    background-size: cover;
+    
+}
+.sec2{
+    position: absolute;
+    margin: 10px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: center ;
+    height: 80% ;
+    width: 90%;
+    
+}
+.Specialist{
+    padding-top: 20px;
+    margin: 15px;
+    margin-right: 55px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 33;
+    color: rgb(231, 148, 40);
+    
+    
+}
+.SERVICES{
+    margin-right: 50px;
+    font-size: 40;
+}
+.H2Break{
+    color: ivory;
+}
+.meals{
+    position: relative;
+    box-shadow:  0px 0px 10px rgba(45,46,41,0.64);
+    height: 250px ;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% ;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ;
+    outline: 2px solid whitesmoke;
+    outline-offset: -15px;
+   
+
+}
+.overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s ;
+}
+.overlay:hover{
+    opacity:1 ;
+    
+}
+.overlay:hover > * {
+    transform: translateY(0px);
+}
+.img{
+    height: 250px ;
+    width: 300px;
+}
+.crepe{
+    background-image: url("crepe.jpg");
+    background-size: cover;
+}
+.turta{
+    background-image: url("turta.jpg");
+    background-size: cover;
+}
+.cake{
+    background-image: url("cakes.jfif");
+    background-size: cover;
+} 
+.forthsec{
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.to{
+    letter-spacing: 3px;
+    color:  rgb(204, 99, 99);
+    font-size: 30;
+}
+.yellow{
+    color:  rgba(250, 184, 16, 0.774);
+}
+.menu{
+    margin: 5px;
+    font-family: 'Merienda', cursive;
+   font-size: 40px;
+   letter-spacing: 5px;
+}
+.grid-cintainer{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    align-content: center;
+}
+.cell1{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fff{
+    margin-top: 25px;
+    padding: 10px;
+    
+    
+}
+.span1{
+width: 40px;
+margin: 5 auto;
+border: 0;
+border-bottom: 2px solid black;
+}
+.span2{
+    width: 40px;
+    margin: 5 auto;
+    border: 0;
+    border-bottom: 2px solid rgb(204, 99, 99);
+    }
+.CUPICON{
+    margin-top: 25px;
+    padding: 10px;
+    color: rgb(204, 99, 99);
+    
+}
+
+.desserth2{
+    padding: 10px;
+    letter-spacing: 3px;
+}
+.icecreamH3{
+    letter-spacing: 6px;
+    padding: 10px;
+    
+}
+.BANCCUPH2{
+    letter-spacing: 8px;
+    padding: 10px;
+
+}
+.hoH3stro{
+padding: 10px;
+font-family: 'Noticia Text', serif;
+}
+.para1{
+    margin: 2px;
+    padding: 20px;
+    font-weight: 500;
+    font-family:'KoHo', sans-serif;
+    
+}
+.picice{
+    width: 50%;
+    background-color: bisque;
+}
+.pic2{
+    width: 50%;
+    background-image: url("icecream.jpg");
+    background-size:cover ;
+    background-position: center;
+}
+.pic3{
+    width: 50%;
+    background-color: whitesmoke;
+   
+}
+.pic4{
+    width: 50%;
+   background-image: url("CUPCAKESTRAW.jpg");
+   background-size: cover;
+   background-position: center;
+}
+.pic5{
+    width: 50%;
+   background-image: url("american_pancakes.jpg");
+   background-size: cover;
+}
+.pic6{
+    width: 50%;
+    background-image: url("cake2.jpg");
+    background-size:cover ;
+    background-position: center;
+}
+.fivesec{
+    background-image: url("sec5.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30;
+}
+.SPEMENU{
+    letter-spacing: 4px;
+    font-size: 25px;
+    padding: 20px;
+}
+.margin-b{
+    margin-bottom: 50px;
+}
+.col1{
+    padding: 15;
+}
+.container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.namemeal{
+    padding: 0 10;
+    display: inline-block;
+    font-family: Merienda;
+}
+.price{
+  font-family: fantasy;
+  font-size: x-large;
+    color: rgb(204, 99, 99);
+    padding: 10px;
+}
+.ingrd{
+    display: flex;
+    padding: 0 10 10;
+    font-weight: 300;
+}
+.button2{
+    margin: 20 auto;
+    padding: 10 25;
+    border: 2px solid darksalmon;
+    text-decoration: none;
+    font: monospace ;
+    text-transform: uppercase;
+    transition: ease-in-out 250ms;
+    color: darksalmon;
+}
+.button2:hover {
+    padding: 10 15;
+}
+.sixsec{
+    margin: 50;
+    text-align: center;
+}
+.today6{
+    padding: 20;
+    font-size: 30;
+    font-family: 'Parisienne', cursive;
+    color:rgb(250, 184, 16) ;
+}
+.spec6{
+    padding-bottom:40 ;
+    font-size: 35;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+.containdate{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60;
+}
+.date{ 
+    justify-content: space-between;
+    display: flex; 
+    background-color: rgba(250, 184, 16, 0.774);
+    margin:  auto 30;
+    padding:  11 40;
+    width: 200;
+    height: 20;
+    
+}
+.h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button3{
+    
+    padding: 10 25;
+    border: 2px solid rgba(250, 184, 16, 0.774);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: ease-in-out 250ms;
+    color: rgb(250, 184, 16);
+    font-weight: 800;
+    
+}
+.button3:hover {
+    background-color: rgba(250, 184, 16, 0.212);
+    color:rgba(0, 0, 0, 0.685);
+}
+.footer{
+    height: 400px ;
+    padding: 1;
+    justify-content: center;
+    background-image: url("Artboard 1.png");
+    background-size: cover;
+}
+.confoot{
+    margin: 60;
+    margin-bottom: 0px;
+}
+.info{
+    font-family: monospace;
+    color: rgba(250, 184, 16, 0.774);
+    margin: 0 40;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding-left: 0;
+}
+.info2{ margin: 10 40;
+    font-family: monospace;
+
+}
+.info3{ 
+    font-size: larger;
+    font-family: monospace;
+
+}
+.d2{
+    font-size: large;
+    display: inline-block;
+}
+.btn3{
+    display: grid;
+    padding: 10 40;
+    margin: 8 0;
+}
+.btn4{
+    padding: 10 40;
+    text-decoration: none;
+    border: 2px solid rgb(202, 202, 200);
+    color: rgb(202, 202, 200);
+    background-color:white;
+}
+.subscribe{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+.sp2{
+ width:100%;
+margin: 5 auto;
+border: 0;
+border-bottom: 2px solid black;
+}
+.copy{
+    text-align: center;
+}
+.infco{
+    margin: 0;
+}
